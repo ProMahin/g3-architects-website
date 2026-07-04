@@ -135,6 +135,61 @@ body {
     color: #727272;
 }
 
+/* sec-2 related styles */
+.sec-2{
+    display: flex;
+    margin-top: 130px;
+    gap: 140px;
+}
+
+.sec-2-feature-container h2{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.sec-2-feature-container p{
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 1rem;
+    color: #727272;
+}
+
+.card-container{
+    gap: 20px;
+}
+
+.card{
+     background-color: #FFFFFF;
+     width: 450px;
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+     margin-top: 20px;
+}
+
+.card-1{
+    margin-top: 30px;
+}
+
+.card h5{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.card p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.sec-2-img-container img{
+    width: 530px;
+}
+
 /* responsive media query for small device */
 @media screen and (max-width: 576px) {
 
