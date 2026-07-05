@@ -244,6 +244,40 @@ body {
     color: #727272;
 }
 
+/* sec-4 related styles */
+.sec-4{
+    margin-top: 120px;
+}
+
+.sec-4-texts{
+    text-align: center;
+    padding: 0px 300px;
+}
+
+.sec-4-texts h2{
+    font-weight: bold;
+    font-size: 2.8rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.sec-4-texts p{
+    font-size: 1rem;
+    color: #727272;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.sec-4-img-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.sec-4-img-container img{
+    filter: grayscale(100%);
+    display: block;
+}
+
 /* responsive media query for small device */
 @media screen and (max-width: 576px) {
 
@@ -324,6 +358,22 @@ body {
     .sec-3-texts p {
         width: 100%;
     }
+
+    .sec-4{
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 80px;
+    }
+
+    .sec-4-texts{
+        padding: 0;
+    }
+
+    .sec-4-img-container{
+        justify-items: center;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
 }
 
 /* responsive media query for medium device */
@@ -334,8 +384,14 @@ body {
         margin: 0px 15px;
     }
 
+    .banner-content{
+        padding: 0 30px;
+    }
+
     .sec-1 {
         flex-direction: column;
+        padding: 0;
+        gap: 60px;
     }
 
     .sec-1-texts {
@@ -344,5 +400,54 @@ body {
 
     .sec-1-texts p {
         padding: 0px 50px;
+    }
+
+    .sec-2{
+        flex-direction: column-reverse;
+        gap: 60px;
+        margin-top: 80px;
+    }
+
+    .sec-2-img-container{
+        margin: 0 auto;
+    }
+
+    .sec-2-feature-container{
+        justify-items: center;
+    }
+
+    .sec-2-feature-p{
+        text-align: center;
+        padding: 0px 30px;
+    }
+
+    .sec-3{
+        margin-top: 80px;
+    }
+
+    .sec-3-texts{
+        text-align: center;
+    }
+
+    .sec-3-texts p{
+        width: calc(100% - 100px);
+        padding: 0px 40px;
+    }
+
+    .facts-card-container{
+       flex-direction: column;
+       align-items: center;
+       margin-top: 50px;
+       gap: 20px;   
+    }
+
+    .sec-4-texts{
+        padding: 0px 100px;
+    }
+
+    .sec-4-img-container{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 40px;
     }
 }
