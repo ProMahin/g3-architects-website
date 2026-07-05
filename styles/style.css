@@ -361,6 +361,7 @@ body {
 
     .sec-2-img-container img {
         width: 100%;
+        margin-top: 0;
     }
 
     #experience-badge {
@@ -464,6 +465,10 @@ body {
 
     .sec-2-img-container {
         margin: 0 auto;
+    }
+
+    .sec-2-img-container img {
+        margin-top: 0;
     }
 
     .sec-2-feature-container {
